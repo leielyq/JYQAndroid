@@ -1,15 +1,19 @@
-package com.jyq.jyqandroid;
+package com.jyq.jyqandroid.base.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+import com.jyq.jyqandroid.R;
+
+public class WebActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setContentView(R.layout.activity_main);
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_web);
+
 
 
     }
+
 }
